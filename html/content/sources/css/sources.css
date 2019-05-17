@@ -1,0 +1,134 @@
+html {
+  width: 375px;
+  height: 667px; 
+}
+
+body{
+  background-image: url("/Users/orideangelis/Desktop/ima capstone/resources/web/data/fondo.jpg");
+  background-size: 670%;
+  background-color:#F9B594;
+  margin:0px; 
+  margin-left:0px; 
+  margin-right: 0px;
+  padding:0px;
+  border:0px; 
+  overflow-x: hidden;
+  cursor: default;
+}
+
+#h1 {
+  top: 10px;
+  margin: 0px;
+  font-family: Futura;
+  font-weight: 600;
+  font-size: 70px;
+  text-transform: uppercase;
+  height:50px;
+  text-align: center;
+  color:rgb(242, 125, 99);
+  text-shadow: 10px 10px rgba(255,255,255, 0.8);
+  cursor: pointer;
+}
+
+#h2 { 
+  margin-top: 60px;
+  margin-left: 60%;
+  font-family: Futura;
+  font-weight: 600;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  display:block;
+  z-index: 0.5;
+  height:35px;
+  width: 120px;
+  background-color:rgba(242, 125, 99,0.8);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+#title{
+	margin-top: 30px; 
+	margin-left: 25px;
+	padding-top: 5px;
+  	text-transform: uppercase;
+  	font-family: Futura;
+  	color: rgba(255,255,255,0.9);
+  	font-weight: 600;
+  	font-size: 35px;
+  	text-shadow:5px 5px rgb(243,114,155); 
+  	letter-spacing: 2px;
+}
+
+#header {
+	margin-top: 30px; 
+	  width: 450px;
+	  height:55px;
+	  margin-right: 0px;
+	  background-color: rgb(243,114,155);
+}
+
+#text1{ 
+	margin-top: 20px;
+	margin-bottom:40px;
+	text-indent: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: Futura;
+  font-weight: 20;
+  font-size: 15px;
+  line-height: 25px;
+ }
+
+#frame{
+margin-left: 30px; 
+margin-bottom:30px;
+display: inline-block;
+margin-top: 0px;
+background-color:rgba(255, 255, 255, 0.8);
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-style: solid;
+border-top-width: 0px;
+border-bottom-width: 0px;
+border-left-width: 5px;
+border-right-width: 5px;
+border-color: rgba(242, 125, 99, 0.6);
+}
+
+ .text2{ 
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  margin-bottom:40px;
+  text-indent: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: Futura;
+  font-weight: 20;
+  font-size: 15px;
+  line-height: 25px;
+
+ }
+
+.sources{
+width:420px;
+margin-bottom:30px;
+display: inline-block;
+margin-top: -35px;
+background-color:rgba(243,114,155);
+ }
+
+ .pics{
+  border-radius: 10px;
+  margin-left: 22%;
+  width:50%;
+  height: auto;
+
+ }
+
+
+
+

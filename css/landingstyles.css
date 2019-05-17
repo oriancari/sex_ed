@@ -1,0 +1,390 @@
+html {
+  width: 375px;
+  height: 667px; 
+}
+body{
+  background-image: url("/Users/orideangelis/Desktop/ima capstone/resources/web/data/fondo.jpg");
+  background-size: 570%;
+  background-color:#F9B594;
+  margin:0px; 
+  margin-left:0px; 
+  margin-right: 0px;
+  padding:0px;
+  border:0px; 
+  overflow-x: hidden;
+  cursor: default;
+}
+.animate {
+  -webkit-animation: flicking 3s; /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite;
+  animation: flicking 2s infinity;
+  animation-iteration-count: infinite;
+}
+
+#h1 {
+  position: sticky; 
+  position: -webkit-sticky;
+  top: 0px;
+  margin: 0px;
+  font-family: Futura;
+  font-weight: 600;
+  font-size: 70px;
+  text-transform: uppercase;
+  height:50px;
+  text-align: center;
+  color:rgb(242, 125, 99);
+  text-shadow: 10px 10px rgba(255,255,255, 0.8);
+  cursor: pointer;
+}
+
+#h2 { 
+  position: sticky; 
+  position: -webkit-sticky;
+  top: 100px;
+  margin-left: 60%;
+  font-family: Futura;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 5%;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  display:block;
+  z-index: 0.5;
+  height:35px;
+  width: 120px;
+  background-color:rgba(242, 125, 99,0.8);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+#sidebar{
+  position: sticky;
+  position: -webkit-sticky;
+  width:40px;
+  top: 100px; 
+  float: left;
+  margin-left: 10px; 
+}
+
+#button1 {
+  width:40px;
+  height: 10px;
+  margin: 5px; 
+  background-color:rgba(242, 125, 99,0.8);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  cursor: pointer; 
+}
+
+#button1:hover {
+  opacity:0.6;
+}
+
+#text1{
+  display: inline-block;
+  margin-top: 25%;
+  margin-right:20px; 
+  margin-left: 20px; 
+  font-family: Futura;
+  font-weight: 60px;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
+#text2{
+  display: none;
+  margin-top: 10%;
+  margin-right:20px; 
+  margin-left: 20px; 
+  font-family: Futura;
+  font-weight: 60px;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+}
+#arrow{
+  height: 20px;
+  margin-bottom: 30px; 
+  float:right;
+  margin-right:20px; 
+}
+#arrow2{
+  height: 20px;
+  margin-bottom: 30px;
+  float:right;
+  margin-right:20px; 
+}
+
+#papaya{
+  display:inline-block;
+  max-width:280px;
+  margin-right: 0px;
+  padding-left:80px;
+  animation: shake 2s;
+  animation-iteration-count: infinite;
+}
+
+#frame {  
+  margin-left: 20%;
+  display: none;
+  margin-top:12%;
+  width: 288px;
+  height:510px;
+  background-color:rgba(255, 255, 255, 0.8);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  box-shadow: 10px 10px 10px 4px rgba(242, 125, 99, 0.6);
+}
+
+.frame2 {  
+  height:100%; 
+  width:280px;
+  margin-left:80px;
+  display: none;
+  background-color:rgba(255, 255, 255, 0.8);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  box-shadow: 10px 10px 10px 4px rgba(242, 125, 99, 0.6);
+}
+
+#infobubbletext{ 
+  margin-top:270px;
+  font-family: Futura;
+  font-weight: 60px;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  padding-bottom:300px;
+}
+
+#close {
+  cursor: pointer;
+  height: 30px;
+  margin-right:5px;
+  padding-left:250px;
+  margin-top: 5px;
+  float:right;
+}
+
+#exit {  
+  cursor: pointer;
+  height: 10%;
+  float:right;
+ }
+
+ .sections { 
+  display: inline-block;
+  width:100%; 
+  height: 100%;
+  margin-top: 20%; 
+  }
+
+ .question {
+  display: inline-block; 
+  cursor:pointer;
+  height:auto; 
+ }
+
+
+#one {
+  float: right; 
+  padding-bottom: 40px; 
+  margin-top: 25px; 
+  max-width: 80px;
+  margin-right: 10px; 
+}
+
+#inputone {
+  display: none;
+}
+
+#input2{
+  display: none;
+}
+#input3{
+  display: none;
+}
+#input4{
+  display: none;
+}
+
+#two {
+  float: right; 
+  margin-top: 100px;
+  padding-bottom: 30px; 
+  max-width: 80px;
+  margin-right: 10px; 
+}
+
+#three{
+  float: right; 
+  margin-top: 100px;
+  padding-bottom: 50px; 
+  max-width: 80px;
+  margin-right: 10px; 
+}
+
+#four {
+  float: right; 
+  margin-top: 60px;
+  padding-bottom: 10px;
+  max-width: 80px;
+  margin-right: 10px; 
+}
+
+ #vajajay {
+  display:inline-block;
+  height:370px;
+  max-width: 438px; 
+  float: right; 
+  margin-right: 93px; 
+  cursor:pointer;
+  margin-top:-90px;
+ }
+#clickclit {
+  margin-top:250px;
+  width: 110px;
+  height:70px;
+  float:right;
+  text-align:center;
+  text-transform:uppercase;
+  font-family: Futura;
+  font-weight: 60px;
+  font-size: 20px;
+  text-align: center;
+  text-shadow:2px 2px rgba(242, 125, 99, 0.6);
+}
+.clit{
+  -webkit-animation: flicking 3s; /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: 3;
+  animation: flicking 2s infinity;
+  animation-iteration-count: 3;
+}
+
+
+#fruit {
+  display:inline-block;
+  max-width: 300px; 
+  max-height: 400px;
+  margin-right: 20px; 
+  float: right; 
+  cursor:pointer;
+  padding-top: 200px;
+}
+
+#hands{
+  display:inline-block;
+  max-height:280px;
+  max-width: 400px; 
+  margin-right: 5%; 
+  max-height: auto;
+  float: right; 
+  cursor:pointer;
+  padding-top: 200px;
+}
+
+#orgasm {
+  display:inline-block;
+  max-width: 300px; 
+  margin-right: 10%;
+  max-height: auto;
+  float: right; 
+  cursor:pointer;
+  padding-top: 200px;
+}
+
+#backToTop {
+position: sticky; 
+position: -webkit-sticky;
+margin-left: 60%;
+height: 50px;
+font-family: Futura;
+text-align: center; 
+width: 150px; 
+bottom: 0px;
+background-color:rgba(242, 125, 99,0.8);
+border: 2px solid rgba(255, 255, 255, 0.5);
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+cursor: pointer; 
+}
+
+.question: hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+
+  animation: shake 0.5s; 
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite; 
+}
+
+#fruit:hover {
+    animation: shake 0.9s; 
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite; 
+}
+
+#vajajay:hover {
+  animation: shake 0.9s; 
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite; 
+}
+
+#hands:hover {
+   animation: shake 0.9s; 
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite; 
+}
+
+#orgasm:hover {
+  animation: shake 0.9s; 
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite; 
+}
+
+@-webkit-keyframes flicking {
+  0%   {opacity:1}
+  25%  {opacity:0}
+  50%  {opacity:1}
+  75%  {opacity:0}
+  100% {opacity:1}
+}
+
+/* Standard syntax */
+@keyframes flicking {
+  0%   {opacity:1}
+  25%  {opacity:0}
+  50%  {opacity:1}
+  75%  {opacity:0}
+  100% {opacity:1}
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}

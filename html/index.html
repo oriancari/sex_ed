@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" 
+      content="user-scalable=no,width=device-width"/>
+	<meta charset="UTF-8">
+	<link type="text/css" rel="stylesheet" href="/Users/orideangelis/Desktop/ima capstone/resources/web/css/landingstyles.css">
+	<script type="text/javascript" src="/Users/orideangelis/Desktop/ima capstone/resources/web/js/landing_page.js">
+	</script>
+
+</head>
+
+<body>
+
+<h1 id="h1" onclick="main()">
+	Sex Ed
+</h1>
+<h2 class="animate" id="h2" onclick="intro()">
+	for women*
+</h2>
+
+<div id="sidebar">
+<button id="button1" onclick="main()" alt="papaya"> </button>
+<button id="button1" onclick="next()" alt="vajajay"></button>
+<button id="button1" onclick="next2()"> </button>
+<button id="button1" onclick="next3()"> </button>
+<button id="button1" onclick="next4()" alt="orgasm"> </button>
+</div>
+
+<img id="papaya" onclick="next()" class="hover" src="/Users/orideangelis/Desktop/ima capstone/resources/web/data/papaya.png" alt="papaya">
+
+<!-- <div id="down">
+    <img id="down" onclick="next()" src="/Users/orideangelis/Desktop/ima capstone/HTML FILES/Landing Page/data/down.png">
+    </div> -->
+
+        <!-- Info bubble - Project Statement Pop-Up -->
+        <div id="frame">
+            <img onclick ="hide()" src="/Users/orideangelis/Desktop/ima capstone/resources/web/data/cancel.png" alt="exit" id="close">
+            <p id="text1">In spanish, malcojida is an insult men throw at women who act a bit feisty. The phrase directly translates to: badly fucked. I love it. It’s men who are doing the fucking wrong and yet, somehow, they to turned the phrase into an insult for us. 
+                <br>
+            </p>
+            <p id="text2">
+            Here’s a fun fact: at least 10% of women have confessed to never experiencing an orgasm. To make matters worse, scientists still don’t know what constitutes a female orgasm. If experts are clueless, how are we supposed to know? And then the cherry on top: the wage gap isn’t the only gap dividing men and women. The pleasure gap is real; studies show roughly 39% of women reach orgasm while having sex, as opposed to 91% of men. We’re ending this gap. If we’re not getting equal pay, we might as well get equal pleasure.  </p>
+            <img id="arrow" onclick="page2()" src="/Users/orideangelis/Desktop/ima capstone/resources/web/data/right.png">
+            <img id="arrow2" onclick="page1()" src="/Users/orideangelis/Desktop/ima capstone/resources/web/data/back.png">
+        </div>
+
+<!-- 
+//SECTION ONE//  -->
+    <div class= "sections">
+    	<p class="animate" id="clickclit">Click The Clit!</p>
+        <img id="vajajay" onclick="one()" src="/Users/orideangelis/Desktop/ima capstone/resources/web/data/vajajay.png" alt="vajajay">
+            <div class="frame2" id="content">
+            <img onclick ="hide()" src="/Users/orideangelis/Desktop/ima capstone/resources/web/data/cancel.png" alt="exit" id="close">
+            <p id="infobubbletext">Section One. Determining Factors of Orgasm</p>
+        </div>
+        <img class="question" id="one" onclick="question1()" src="/Users/orideangelis/Desktop/ima capstone/resources/web/data/question.png">
+        <form>
+        <input type="text" name="firstname" id="input1"><br>
+        </form>
+    </div>
+<!-- 
+//SECTION TWO// -->
+    <div class="sections">
+        <img id="fruit" onclick="two()" src="/Users/orideangelis/Desktop/ima capstone/resources/web/data/fruit.png" alt="fruits">
+           <div class="frame2" id="content2">
+            <img onclick ="hide()" src="/Users/orideangelis/Desktop/ima capstone/resources/web/data/cancel.png" alt="exit" id="close">
+            <p id="infobubbletext">Section Two. Vaginal vs. Clitoral Orgasm</p>
+        </div>
+        <img class="question" id="two" onclick="question2()" src="/Users/orideangelis/Desktop/ima capstone/resources/web/data/question.png">
+        <form >
+        <input type="text" name="firstname" class="input" id="input2"><br>
+        </form>
+    </div>
+
+<!-- 
+
+//SECTION THREE// -->
+    <div class="sections">
+        <img id="hands" onclick="three()" src="/Users/orideangelis/Desktop/ima capstone/resources/web/data/hands.png" alt="hands">
+            <div class="frame2" id="content3">
+            <img id="close" onclick ="hide()" src="/Users/orideangelis/Desktop/ima capstone/resources/web/data/cancel.png" alt="exit">
+            <p id="infobubbletext">Section Three</p>
+            </div>
+        <img class="question" id="three" onclick="next4()" src="/Users/orideangelis/Desktop/ima capstone/resources/web/data/question.png">
+        <form>
+        <input type="text" name="firstname"class="input" id="input3"><br>
+        </form>
+    </div>
+
+
+<!-- 
+//SECTION FOUR// -->
+    <div class="sections">
+        <img id="orgasm" onclick="four()" src="/Users/orideangelis/Desktop/ima capstone/resources/web/data/orgasm.png" alt="orgasm">
+        <div class="frame2" id="content4">
+            <img onclick="hide()" id="close" src="/Users/orideangelis/Desktop/ima capstone/resources/web/data/cancel.png" alt="exit">
+            <p id="infobubbletext">Section Three</p>
+            </div>
+        <img class="question" id="four" src="/Users/orideangelis/Desktop/ima capstone/resources/web/data/question.png">
+        <form>
+        <input type="text" name="firstname" class="input" id="input4"><br>
+        </form>
+    </div>
+
+   <!--  <button id="backToTop" onclick="main()">back to top</button> -->
+
+</body>
+</html>
